@@ -11,7 +11,7 @@
  * out.
  *
  * Time complexity is O(N) where N is the number of frosh for each test case,
- *since the following loops occur a constant number of times.
+ * since the following loops occur a constant number of times.
  **/
 
 #include <algorithm>
