@@ -6,6 +6,7 @@
  * epsilon technique). The only trick to make it faster is to set the 'high'
  * value to the C value, as X can't be bigger than C.
  *
+ * Time complexity would be O(n*log(n))
  **/
 
 #include <cmath>
