@@ -1,3 +1,14 @@
+/**
+ * [UVA 10534] - Wavio Sequence
+ * https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1475
+ *
+ * To solve this problem, we're doing the LIS problem for start to end, and from
+ * end to start. Then, to find the longest wavio sequence, we put together the
+ * sequences from both the sub-problems.
+ *
+ * Time complexity is O(n*log(n))
+ **/
+
 #include <bits/stdc++.h>
 
 using namespace std;
